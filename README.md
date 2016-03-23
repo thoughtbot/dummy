@@ -5,15 +5,14 @@ still need to be implemented on the backend).
 
 ## Usage
 
-In your main application styling page, add a script for toggle dummy.
-Be sure to add this in such a way that it can be only accessed when in the
-development environment. For example:
+In your main application styling page, add a script for toggle dummy and a link
+to it's stylesheet.
 
 ```
-    <%= if Mix.env == :dev do %>
-      <script src="https://rawgit.com/thoughtbot/toggle_dummy/master/toggle-dummy.js">
-      </script>
-    <% end %>
+<script src="https://rawgit.com/thoughtbot/toggle_dummy/master/toggle-dummy.js">
+</script>
+<link rel="stylesheet" type="text/css"
+href="https://rawgit.com/thoughtbot/toggle_dummy/master/toggle-dummy.css">
 ```
 
 You will need to add the "dummy" class to any elements in your UI that
