@@ -1,0 +1,17 @@
+.toggle-dummy-button {
+  border-radius: 50%;
+  bottom: 1rem;
+  padding: 1rem;
+  position: fixed;
+  right: 1rem;
+}
+
+.toggle-dummy-icon {
+  display: block;
+  fill: currentColor;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+/* Crash Test Dummy Icon by Luis Prado */
+/* https://thenounproject.com/search/?q=dummy&i=4954 */
