@@ -1,18 +1,18 @@
-# Toggle Dummy
+# Dummy
 
-Toggle Dummy makes it clear what elements on the page are "dummy" info (i.e.
+Dummy makes it clear what elements on the page are "dummy" info (i.e.
 still need to be implemented on the backend).
 
 ## Usage
 
-In your main application styling page, add a script for toggle dummy and a link
+In your main application styling page, add a script for dummy and a link
 to it's stylesheet.
 
 ```
-<script src="https://rawgit.com/thoughtbot/toggle_dummy/master/toggle-dummy.js">
+<script src="https://thoughtbot.github.io/dummy/toggle-dummy.js">
 </script>
 <link rel="stylesheet" type="text/css"
-href="https://rawgit.com/thoughtbot/toggle_dummy/master/toggle-dummy.css">
+href="https://thoughtbot.github.io/dummy/toggle-dummy.css">
 ```
 
 You will need to add the "dummy" class to any elements in your UI that
@@ -38,7 +38,7 @@ Thank you, [contributors]!
 
 ## License
 
-Toggle Dummy is Copyright (c) 2016 thoughtbot, inc.
+Dummy is Copyright (c) 2016 thoughtbot, inc.
 It is free software, and may be redistributed
 under the terms specified in the [LICENSE] file.
 
@@ -48,7 +48,7 @@ under the terms specified in the [LICENSE] file.
 
 ![thoughtbot](https://thoughtbot.com/logo.png)
 
-Toggle Dummy is maintained and funded by thoughtbot, inc.
+Dummy is maintained and funded by thoughtbot, inc.
 The names and logos for thoughtbot are trademarks of thoughtbot, inc.
 
 We love open source software!
