@@ -13,5 +13,9 @@
   width: 1.25rem;
 }
 
+.dummy.is-active {
+  opacity: 0.4;
+}
+
 /* Crash Test Dummy Icon by Luis Prado */
 /* https://thenounproject.com/search/?q=dummy&i=4954 */

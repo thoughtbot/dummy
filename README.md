@@ -16,15 +16,18 @@ href="https://thoughtbot.github.io/dummy/toggle-dummy.css">
 ```
 
 You will need to add the "dummy" class to any elements in your UI that
-aren't complete on the backend. Then, add appropriate styling for when the dummy
-class is active. For example:
+aren't complete on the backend.
+
+The default behavior is to lighten the opacity of dummy elements in your UI when
+dummy is active. You can also overwrite this behavior by modifying the styling
+for the `.dummy.is-active` elements in your application. For example:
 
 ```scss
 //dummy.scss
 
 .dummy {
   &.is-active{
-    opacity: 0.4;
+    background-color: red;
   }
 }
 ```
