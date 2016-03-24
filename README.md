@@ -1,7 +1,11 @@
 # Dummy
 
 Dummy makes it clear what elements on the page are "dummy" info (i.e.
-still need to be implemented on the backend).
+still need to be implemented on the backend) by making them visibly different
+from other elements on the page. This makes it easy to tell what still needs to
+be done in development.
+
+![dummy-demo](https://raw.githubusercontent.com/thoughtbot/dummy/a0fbc6bea6d03bd5d25d961c3a3d4872320ae4a0/dummy-demo.gif)
 
 ## Usage
 
@@ -15,10 +19,10 @@ to it's stylesheet.
 href="https://thoughtbot.github.io/dummy/toggle-dummy.css">
 ```
 
-You will need to add the "dummy" class to any elements in your UI that
+You will need to add the `dummy` class to any elements in your UI that
 aren't complete on the backend.
 
-The default behavior is to lighten the opacity of dummy elements in your UI when
+The default behavior is to reduce the opacity of dummy elements in your UI when
 dummy is active. You can also overwrite this behavior by modifying the styling
 for the `.dummy.is-active` elements in your application. For example:
 
@@ -31,6 +35,7 @@ for the `.dummy.is-active` elements in your application. For example:
   }
 }
 ```
+
 ## Contributing
 
 See the [CONTRIBUTING] document.
